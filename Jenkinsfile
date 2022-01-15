@@ -25,7 +25,7 @@ pipeline{
 		stage('Login') {
 
 			steps {
-				sh 'echo 906210052errDd | docker login -u erandiranaweera --password-stdin'
+				sh 'echo 906210052errDd | docker login -u  erandiranaweera -p 906210052errDd '
 			}
 		}
 
